@@ -1,0 +1,5 @@
+matrix
+*.exe
+*.pdb
+*.o
+*.out
