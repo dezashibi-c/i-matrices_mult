@@ -205,6 +205,7 @@ int main()
         exit(EXIT_FAILURE);
     }
 
+    // First and Second matrices
     int a_rows, a_cols, b_rows, b_cols;
     int** matrix_a = load_matrix(file, &a_rows, &a_cols);
     int** matrix_b = load_matrix(file, &b_rows, &b_cols);
@@ -212,6 +213,7 @@ int main()
     // we no longer need the file
     fclose(file);
 
+    // Result matrix
     int result_rows, result_cols;
     int** result_matrix = multiply_matrices(matrix_a, a_rows, a_cols, matrix_b, b_rows, b_cols, &result_rows, &result_cols);
 
