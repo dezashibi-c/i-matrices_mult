@@ -23,6 +23,28 @@ First line is the size of the first matrix, then the data for the first one, the
 
 I would also check the data validity and then possibility of multiplying two matrices together and finally will print the result.
 
+## License
+
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.
+
+You are free to:
+
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+
+- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- NonCommercial — You may not use the material for commercial purposes.
+
+No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+For more details, refer to the [LICENSE](./LICENSE) file.
+
+### Author
+
+Navid Dezashibi  
+<navid@dezashibi.com>
 ## Project structure
 
 It's a one file project, and yes it's not a bad thing necessarily to do this especially with dealing with these kind of calculation or handy tools, if you know what I mean, so just use your own compiler like `gcc`, `clang`, `zig cc` or any other and compile then run, that's it.
